@@ -40,7 +40,7 @@ body {
     width: 35px;height: 35px;
     background: #289BDE;
     padding: 7px;top: 44%;
-    border-radius: 100px;
+    border-radius: 100px; 
 } 
 .carousel-control-prev {
     left: -17px;
