@@ -42,4 +42,7 @@
         transform: translateX(-50%);
         bottom: -16px;
     }
+    .hero-banner .carousel-caption h1{
+        font-size: 23px !important;
+    }
 }
