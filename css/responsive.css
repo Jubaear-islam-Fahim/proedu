@@ -1,0 +1,45 @@
+@media (max-width: 991.98px){
+    .hero-banner .carousel-caption { 
+        padding: 0 40px;
+        width: 100%;
+    } 
+    .work-text p {
+        overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2;
+        display: -webkit-box; -webkit-box-orient: vertical;
+    }
+    .institute-grid p{
+        overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 1;
+        display: -webkit-box; -webkit-box-orient: vertical;
+    }
+    .work-img.me-4 {
+        margin: 0 !important;
+    }
+    .register-btn.ms-auto {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 575.98px){ 
+    .hero-banner .carousel-control-next, .hero-banner .carousel-control-prev{
+        display: none;
+    }
+    .hero-banner .carousel-item img {
+        min-height: 325px;
+    }
+    .hero-banner .carousel-caption p {
+        overflow: hidden; text-overflow: ellipsis; -webkit-line-clamp: 2;
+        display: -webkit-box; -webkit-box-orient: vertical;
+        margin-bottom: 23px !important;
+        padding-bottom: 0 !important;
+    }
+    .popular-courses .img-fluid{
+        width: 100%;
+    }
+    #carouselExampleControls .carousel-control-next, #carouselExampleControls .carousel-control-prev {
+        position: relative;
+        display: inline-flex;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -16px;
+    }
+}
